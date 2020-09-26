@@ -43,6 +43,10 @@ header .cover-image {
   padding: 50px;
 }
 
+#card-section .p-card .p-card-content .headings {
+  margin-bottom: 30px;
+}
+
 #card-section .p-card .p-card-content .headings h4 {
   font-size: 2.18rem;
   line-height: 45px;
@@ -89,7 +93,7 @@ header .cover-image {
   width: 25%;
   height: calc(100% + 50px);
   top: 0;
-  left: -50px;
+  left: -40px;
   -webkit-transform: rotate(-15deg);
           transform: rotate(-15deg);
 }
