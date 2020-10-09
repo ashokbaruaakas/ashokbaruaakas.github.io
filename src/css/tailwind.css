@@ -3,3 +3,11 @@
 @tailwind components;
 
 @tailwind utilities;
+
+.header-bg {
+  background-image: url(../../images/cover-image.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+}
