@@ -4,10 +4,15 @@
 
 @tailwind utilities;
 
+header {
+  background-image: url(../../images/Header-BG.svg);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
 .header-bg {
   background-image: url(../../images/cover-image.jpg);
+  background-attachment: local;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  width: 100%;
 }
