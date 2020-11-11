@@ -1,3 +1,8 @@
+new SmoothScroll('a[href*="#"]', {
+  speed: 800,
+  easing: 'easeInOutQuad'
+});
+
 // BUp-Hf3JpG8Z2DwLJAmeww
 
 // $.ajax({
