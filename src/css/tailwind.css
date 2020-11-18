@@ -18,3 +18,35 @@ header {
   background-repeat: no-repeat;
   background-size: 100% auto;
 }
+
+/* Default Style Start */
+.hover-animation {
+  @apply transition duration-200 ease-in-out transform;
+}
+.hover-animation:hover {
+  @apply -translate-y-1 scale-105;
+}
+
+.input-item {
+  @apply text-gray-900 w-full border-b border-gray-500 bg-transparent;
+}
+.input-item:focus {
+  @apply outline-none;
+}
+
+.btn-default {
+  @apply bg-gradient-to-r from-blue-400 to-indigo-600 py-2 rounded-md text-white;
+}
+.btn-default:hover {
+  @apply from-blue-600;
+}
+/* Default style end */
+
+/* Customization */
+.social-item {
+  @apply bg-gradient-to-r from-teal-400 to-indigo-600 rounded-full w-8 h-8 pt-1 no-underline text-center text-white;
+}
+
+.info-item {
+  @apply border border-gray-500 bg-gray-100 shadow-md rounded;
+}
