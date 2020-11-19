@@ -35,10 +35,10 @@ header {
 }
 
 .btn-default {
-  @apply bg-gradient-to-r from-blue-400 to-indigo-600 py-2 rounded-md text-white;
+  @apply bg-gradient-to-r from-blue-400 to-indigo-600 py-2 rounded-md text-white shadow-sm;
 }
 .btn-default:hover {
-  @apply from-blue-600;
+  @apply from-blue-600 shadow-md;
 }
 /* Default style end */
 
