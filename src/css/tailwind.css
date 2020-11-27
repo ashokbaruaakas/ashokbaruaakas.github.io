@@ -21,30 +21,21 @@ header {
 
 /* Default Style Start */
 .hover-animation {
-  @apply transition duration-200 ease-in-out transform;
-}
-.hover-animation:hover {
-  @apply -translate-y-1 scale-105;
+  @apply transition duration-200 ease-in-out transform hover:-translate-y-1 hover:scale-105;
 }
 
 .input-item {
-  @apply text-gray-900 w-full border-b border-gray-500 bg-transparent;
-}
-.input-item:focus {
-  @apply outline-none;
+  @apply text-gray-900 w-full border-b border-gray-500 bg-transparent focus:outline-none;
 }
 
 .btn-default {
-  @apply bg-gradient-to-r from-blue-400 to-indigo-600 py-2 rounded-md text-white shadow-sm;
-}
-.btn-default:hover {
-  @apply from-blue-600 shadow-md;
+  @apply bg-gradient-to-r from-blue-400 to-indigo-600 py-2 rounded-md text-white shadow-sm hover:from-blue-600 hover:shadow-md;
 }
 /* Default style end */
 
 /* Customization */
 .social-item {
-  @apply bg-gradient-to-r from-teal-400 to-indigo-600 rounded-full w-8 h-8 pt-1 no-underline text-center text-white;
+  @apply bg-gradient-to-r from-blue-100 to-indigo-600 rounded-full w-8 h-8 pt-1 no-underline text-center text-white;
 }
 
 .info-item {
