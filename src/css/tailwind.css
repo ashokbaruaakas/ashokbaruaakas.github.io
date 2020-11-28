@@ -35,7 +35,7 @@ header {
 
 /* Customization */
 .social-item {
-  @apply bg-gradient-to-r from-blue-100 to-indigo-600 rounded-full w-8 h-8 pt-1 no-underline text-center text-white;
+  @apply bg-gradient-to-r from-blue-300 to-indigo-800 rounded-full w-8 h-8 pt-1 no-underline text-center text-white;
 }
 
 .info-item {
