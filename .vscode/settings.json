@@ -1,0 +1,4 @@
+{
+    "nuxt.isNuxtApp": false,
+    "laravel-pint.enable": false
+}
