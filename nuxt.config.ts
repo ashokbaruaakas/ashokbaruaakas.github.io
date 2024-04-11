@@ -8,4 +8,9 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
+  modules: ["shadcn-nuxt"],
+  shadcn: {
+    prefix: "",
+    componentDir: "./components/ui",
+  },
 });
