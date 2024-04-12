@@ -1,4 +1,5 @@
 const animate = require("tailwindcss-animate");
+const defaultTheme = require("tailwindcss/defaultTheme");
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
@@ -87,6 +88,15 @@ module.exports = {
         "accordion-up": "accordion-up 0.2s ease-out",
         "collapsible-down": "collapsible-down 0.2s ease-in-out",
         "collapsible-up": "collapsible-up 0.2s ease-in-out",
+      },
+      fontFamily: {
+        stylish: ["Righteous", ...defaultTheme.fontFamily.sans],
+      },
+      transitionDuration: {
+        "2000": "2000ms",
+        "3000": "3000ms",
+        "4000": "4000ms",
+        "5000": "5000ms",
       },
     },
   },
