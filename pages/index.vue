@@ -1,3 +1,5 @@
 <template>
-  <div>Page Content</div>
+  <div>
+    <Header />
+  </div>
 </template>
