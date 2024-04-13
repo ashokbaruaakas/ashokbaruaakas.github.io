@@ -5,32 +5,32 @@
     <div
       class="h-screen w-full bg-gradient-to-br from-white via-emerald-50 to-white"
     >
-      <div class="h-full min-h-[700px] max-h-[1024px] relative">
+      <div class="h-full min-h-[700px] max-h-[1024px] relative z-10">
         <Icon
           name="akar-icons:php-fill"
-          class="size-14 animate-bounce duration-5000 absolute px-2.5 py-1 top-[19%] left-[5%] md:top-[10%] lg:top-[20%] md:left-[20%]"
+          class="-z-10 size-14 animate-bounce duration-5000 absolute px-2.5 py-1 top-[19%] left-[5%] md:top-[10%] lg:top-[20%] md:left-[20%]"
           color="#7A86B9"
         />
         <Icon
           name="vscode-icons:file-type-blade"
-          class="size-14 animate-bounce delay-300 duration-5000 absolute px-2.5 py-1 top-[41%] md:top-[50%] lg:top-[40%] left-[80%] md:left-[63%] lg:left-[50%]"
+          class="-z-10 size-14 animate-bounce delay-300 duration-5000 absolute px-2.5 py-1 top-[41%] md:top-[50%] lg:top-[40%] left-[80%] md:left-[63%] lg:left-[50%]"
         />
         <Icon
           name="vscode-icons:file-type-typescript"
-          class="size-14 animate-bounce delay-100 duration-5000 absolute px-2.5 py-1 bottom-[20%] md:bottom-[33%] lg:bottom-[35%] left-[10%] md:left-[18%] lg:left-[40%]"
+          class="-z-10 size-14 animate-bounce delay-100 duration-5000 absolute px-2.5 py-1 bottom-[20%] md:bottom-[33%] lg:bottom-[35%] left-[10%] md:left-[18%] lg:left-[40%]"
         />
         <Icon
           name="vscode-icons:file-type-vue"
-          class="size-14 animate-bounce delay-700 duration-5000 absolute px-2.5 py-1 top-[10%] md:top-[20%] left-[75%] lg:left-[70%]"
+          class="-z-10 size-14 animate-bounce delay-700 duration-5000 absolute px-2.5 py-1 top-[10%] md:top-[20%] left-[75%] lg:left-[70%]"
         />
         <Icon
           name="logos:linux-tux"
-          class="size-14 animate-bounce duration-5000 absolute px-2.5 py-1 bottom-[5%] md:bottom-[8%] lg:bottom-[15%] md:left-[60%] left-[83%]"
+          class="-z-10 size-14 animate-bounce duration-5000 absolute px-2.5 py-1 bottom-[5%] md:bottom-[8%] lg:bottom-[15%] md:left-[60%] left-[83%]"
         />
 
         <!-- Content Wrapper -->
         <div
-          class="container flex h-full justify-center lg:justify-between items-center flex-col lg:flex-row gap-4 md:gap-16 lg:gap-0"
+          class="container flex h-full justify-center lg:justify-between items-center flex-col lg:flex-row gap-12 md:gap-16 lg:gap-0"
         >
           <!-- Left Content -->
           <div>
@@ -93,7 +93,7 @@
           </div>
 
           <!-- Right Content -->
-          <ArtsTheProgrammer class="w-[250px] md:w-[400px] lg:w-[600px]" />
+          <ArtsTheProgrammer class="w-[240px] md:w-[400px] lg:w-[600px]" />
         </div>
       </div>
     </div>
