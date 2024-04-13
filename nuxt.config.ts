@@ -8,4 +8,14 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
+  modules: ["shadcn-nuxt", "@nuxtjs/google-fonts", "nuxt-icon"],
+  shadcn: {
+    prefix: "",
+    componentDir: "./components/ui",
+  },
+  googleFonts: {
+    families: {
+      Righteous: [400],
+    },
+  },
 });
