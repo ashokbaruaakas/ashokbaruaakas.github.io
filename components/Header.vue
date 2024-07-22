@@ -3,9 +3,9 @@
   <div>
     <!-- Baclground -->
     <div
-      class="h-screen w-full bg-gradient-to-br from-white via-emerald-50 to-white"
+      class="min-h-screen w-full bg-gradient-to-br from-white via-emerald-50 to-white"
     >
-      <div class="h-full min-h-[700px] max-h-[1024px] relative z-10">
+      <div class="h-screen min-h-[700px] max-h-[1024px] relative z-10">
         <Icon
           name="akar-icons:php-fill"
           class="-z-10 size-14 animate-bounce duration-5000 absolute px-2.5 py-1 top-[19%] left-[5%] md:top-[10%] lg:top-[20%] md:left-[20%]"
